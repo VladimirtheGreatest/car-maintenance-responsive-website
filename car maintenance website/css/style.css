@@ -1,0 +1,207 @@
+/*global*/
+body, html {
+  height: 100%;
+  scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background: #864aff;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Archivo', sans-serif;
+ font-weight: 500;
+ color: #00fdcb;
+}
+
+
+/*navigation bar*/
+
+.navbar {
+  font-size: 28px;
+  background: #864aff;
+  color: #00fdcb;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+}
+
+
+/*background image and headings*/
+
+#bgimage{
+  background: #864aff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url('https://wallpapercave.com/wp/wp2018851.jpg') no-repeat center center/cover;
+}
+
+.headings{
+  color: white;
+  position: relative;
+	z-index: 2;
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 5rem;
+}
+
+#bgimage h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+#bgimage p{
+  font-size: 24px;
+}
+
+.button1{
+  background: #6139ce;
+  color: white;
+  font-size: 17px;
+}
+
+.button1:hover{
+  opacity:0.8;
+  color: #ffffff;
+}
+
+
+/*text area*/
+
+#main {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#main h1 {
+  font-size: 60px;
+}
+#main p {
+  font-size: 24px;
+}
+
+/*boxes area*/
+
+#boxes {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#boxes h4{
+  color:#00fdcb;
+  font-size: 30px;
+}
+#boxes p{
+  font-size: 20px;
+}
+.card-body{
+  background: #6139ce;
+}
+
+
+/*form*/
+
+#contact {
+  text-align: center;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /*resize: vertical;*/
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  font-weight: bolder;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.col-75 {
+  width: 100%;
+  margin-top: 6px;
+  padding-left: 60px;
+}
+
+
+/*footer*/
+footer img{
+  display: block;
+  width: 50px;
+  height: auto;
+  padding: 10px;
+}
+
+#quote{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    padding: 0px;
+  }
+  input[type=text], select, textarea {
+    width: 70%;
+  }
+  #bgimage{
+    top: 0px;
+    margin-bottom: 0px;
+  }
+  #quote{
+    display: none;
+  }
+  .headings p{
+    display: none;
+  }
+  .headings{
+    margin-top: 4rem;
+  }
+  #bgimage h1{
+    font-size: 40px;
+  }
+
+}
+
+@media screen and (max-width: 813px) {
+  #button {
+    display: none;
+  }
+
+  input[type=text], select, textarea {
+    width: 80%;
+  }
+}

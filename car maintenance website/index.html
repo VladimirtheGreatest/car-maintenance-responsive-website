@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title> Responsive web site test bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700" rel="stylesheet">
+  <script src="javascript.js"></script>
+</head>
+
+<body>
+
+  <!--navigation bar-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <a class="navbar-brand" href="#">
+      <img src="https://logos-download.com/wp-content/uploads/2016/08/Saab_logo-700x225.png" alt="Logo" style="width:190px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#navbarResponsive">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#main">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#boxes">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- end of navigation bar-->
+
+  <!-- backgrounds image + headings-->
+
+  <div class="container-fluid" id=bgimage>
+    <div class="row">
+      <div class="headings text-center">
+        <h1>SAAB car maintenance</h1>
+        <p>100% reliable SAAB car specialist.</p>
+        <a href="#main" <button type="button" class="btn button1">Learn more</button></a>
+      </div>
+    </div>
+  </div>
+
+  <!--  end of backgrounds image -->
+
+  <!-- Description heading-->
+
+  <div class="container-fluid">
+    <section id=main>
+      <h1>The best SAAB car maintenance in Caerphilly</h1>
+      <p>We will do the best to fix your car and you will do the best by choosing our award winning service. </p>
+    </section>
+  </div>
+
+  <!--  end of description heading-->
+
+  <!-- Boxes with description-->
+
+  <div class="container-fluid" id=boxes>
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+        <div class="card">
+          <img class="card-img-top " src="./img/like.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">5 Star service</h4>
+            <p class="card-text">An excellent service.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+        <div class="card">
+          <img class="card-img-top" src="./img/money.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Affordable</h4>
+            <p class="card-text">Save money.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+        <div class="card">
+          <img class="card-img-top" src="./img/car.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Specialist</h4>
+            <p class="card-text">Specializing on SAAB.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+        <div class="card">
+          <img class="card-img-top " src="./img/25.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Experienced</h4>
+            <p class="card-text">25 years of experience.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+        <div class="card">
+          <img class="card-img-top" src="./img/BG.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">All Services</h4>
+            <p class="card-text">Maintenance, MOTs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+        <div class="card">
+          <img class="card-img-top" src="./img/trust.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">100% reliable</h4>
+            <p class="card-text">Positive feedback.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  end of boxes with description-->
+
+  <!-- contact form-->
+
+  <div id=contact>
+    <h2>CONTACT US</h2>
+    <form action="/action_page.php">
+      <div class="row">
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Your message" style="height:200px"></textarea>
+        </div>
+      </div>
+      <div>
+        <button type="submit" class="btn button1">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <!--  end of contact form-->
+
+  <!-- Footer -->
+  <footer class="page-footer mdb-color lighten-3 pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Caerphilly car maintenance</h5>
+          <p>If you have any questions, do not hesitate to contact us!</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p>
+                <a href="#!">REVIEWS</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#!">ABOUT</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#!">M.O.T</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#!">AWARDS</a>
+              </p>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+          <!-- Contact details -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p>
+                <i class="fas fa-home mr-3"></i> Caerphilly</p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> carmaintenance@gmail.com</p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-phone mr-3"></i> + 079797979797</p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-print mr-3"></i> + 0797878787878</p>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+          <!-- Social buttons -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+
+          <!-- Facebook -->
+          <a type="button">
+            <img src="https://coindoo.com/wp-content/uploads/2019/01/facebook-icon.png" alt="">
+          </a>
+          <!-- Twitter -->
+          <a type="button">
+            <img src="https://cdn.worldvectorlogo.com/logos/instagram-2-1.svg" alt="">
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="#"> Car maintenance Caerphilly, made by Vladimir</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+  <!-- get instant quote fixed container-->
+
+  <div class="container">
+    <footer id=quote>
+      <a class="btn btn-warning btn-lg" id=button1 href="#contact" role="button">Get an instant quote!</a>
+    </footer>
+  </div>
+
+  <!--  end of get instant quote fixed container-->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
