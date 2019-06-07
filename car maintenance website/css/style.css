@@ -69,11 +69,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #bgimage h1{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
 }
 #bgimage p{
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .button1{
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #bgimage2 h1{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
 }
 #bgimage2 p{
@@ -224,7 +224,7 @@ footer{
 
 footer img{
   display: block;
-  width: 50px;
+  width: 40px;
   height: auto;
   padding: 10px;
 }
@@ -294,13 +294,13 @@ footer img{
     border-right: none;
   }
   #bgimage2 h1{
-    font-size: 27px;
+    font-size: 30px;
   }
   #bgimage2 p{
-    font-size: 18px;
+    font-size: 20px;
   }
   .headings2{
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
 
@@ -324,7 +324,30 @@ footer img{
     border-left: none;
     border-right: none;
   }
+  #bgimage2 h1{
+    font-size: 30px;
+  }
+  #bgimage2 p{
+    font-size: 20px;
+  }
+  #bgimage h1{
+    font-size: 30px;
+  }
+  #bgimage p{
+    font-size: 20px;
+  }
 }
+
+@media screen and (min-width: 1440px){
+  #bgimage h1{
+    font-size: 50px;
+  }
+  #bgimage2 h1{
+    font-size: 40px;
+  }
+}
+
+
 
 /*loader*/
 /* LOADER 1 */
